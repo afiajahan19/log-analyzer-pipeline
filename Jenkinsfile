@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Run Python Script') {
             steps {
-                bat 'python analyzer.py'
+                bat '"C:\\Users\\Afia Jahan\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" analyzer.py'
+                bat 'type report.txt'
             }
         }
 
