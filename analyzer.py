@@ -4,7 +4,7 @@ info = 0
 error = 0
 warning = 0
 
-with open(log_file, "r") as file:
+with open(log_file, "r", encoding="utf-8", errors="ignore") as file:
     for line in file:
         if "INFO" in line:
             info += 1
