@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-username/log-analyzer-pipeline.git'
+                git 'https://github.com/afiajahan19/log-analyzer-pipeline.git'
             }
         }
 
